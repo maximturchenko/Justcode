@@ -6,7 +6,7 @@ namespace AppDecorator;
 class DressmanMittens extends DressmanAdditional{
   
     public function dress(string $name){ 
-        $text=parent::dress($name).": варежки надел";
+        $text=parent::dress($name)." варежки ";
         return $text; 
     }     
 }
