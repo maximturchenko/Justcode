@@ -1,16 +1,22 @@
 <?php
 
-require_once __DIR__ . "\app\TeaInterface.php";
-require_once __DIR__ . "\app\Blacktea.php";
-require_once __DIR__ . "\app\Greentea.php";
-require_once __DIR__ . "\app\TeachinaPuaer.php";
-require_once __DIR__ . "\app\Teawithlimon.php";
-require_once __DIR__ . "\app\Teawithmilk.php";
-require_once __DIR__ . "\app\UsualTea.php";
+ 
 
-use Tea\app;
+require_once __DIR__ . "\app\interfaceSocial.php";
+require_once __DIR__ . "\app\Abstractgetcreator.php";
+require_once __DIR__ . "\app\FacebookCreator.php";
+require_once __DIR__ . "\app\ConcreteFacebook.php";
+require_once __DIR__ . "\app\VkCreator.php";
+require_once __DIR__ . "\app\ConcreteVk.php";
+require_once __DIR__ . "\app\LinkCreator.php";
+require_once __DIR__ . "\app\ConcreteLinkid.php";
+ 
+  
+use App\Factorymethod;
 
  
+
+
 
 
 
