@@ -8,10 +8,10 @@ class Invoker{
     private $onFinish;
  
     public function setonStart(CommandInterface $c){
-        $this->onStart=$c;
+        $this->onStart = $c;
     }
     public function setonFinish(CommandInterface $c){ 
-        $this->onFinish=$c;
+        $this->onFinish = $c;
     }
 
     public function doSomethingImportant(){ 
